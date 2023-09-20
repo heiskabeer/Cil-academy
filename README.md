@@ -25,7 +25,9 @@ This project contains an AWS infrastructure solution that uses CloudFormation to
 ## Project Workflow
 The project is structured into three main stages:
 
-- **CloudFormation Stack:** In this initial stage, create the stack and deploy it, either through the AWS console or the command-line interface (CLI), to create your predefined AWS resources. You can find the code for the CloudFormation stack in the CFN.yml file.
+- **CloudFormation Stack:** In this initial stage, create the stack and deploy it, either through the AWS console or the command-line interface (CLI), to create your predefined AWS resources. You can find the code for the CloudFormation stack in the `CFN.yml` file.
+
+![](img/CFN.PNG)
 
 - **Object Upload to S3:** Upload some images or files to the S3 bucket that was created as part of the stack.  
 
